@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My IT Support Manager Portfolio</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff6600;
+        }
+
+        /* Main content container */
+        #app {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        /* Sections */
+        section {
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-top: 15px;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        /* Experience items */
+        .experience-item {
+            margin-bottom: 30px;
+        }
+
+        /* Skills */
+        #skills ul {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
+
+        /* Contact info */
+        #contact p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gauri Gupta</h1>
+        <p>IT Support Manager</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="app">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a results-oriented IT Support Manager with a strong background in managing service desks and leading IT support teams. My experience includes building and mentoring efficient support teams, improving service delivery, and resolving complex technical issues.
+            </p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>IT Support Manager - Nous Group</h3>
+                <p>Location: Melbourne, VIC</p>
+                <p>
+                    I led a global Service Desk team providing level 1 and 2 support to Nousers across different offices and time zones. My responsibilities included:</p>
+                <ul>
+                    <li>Building and mentoring a strong support team.</li>
+                    <li>Managing and monitoring service levels.</li>
+                    <li>Owning and improving IT support processes.</li>
+                    <li>Overseeing ITIL aligned IT incident, problem, and service management activities.</li>
+                    <li>Contributing to Microsoft Cloud Technology stack, security, SOE management, asset management, and more.</li>
+                </ul>
+                <h3>Web Development Project</h3>
+      <p>
+        I have hands-on experience in web development, including creating responsive websites using HTML, CSS, and JavaScript. One of my notable projects involved developing a portfolio website for a client, where I utilized modern web technologies to create an attractive and user-friendly online presence for the client.
+      </p>
+                <h3>Game App Development</h3>
+      <p>
+        In addition to web development, I also have a passion for game app development. I successfully designed, developed, and launched a 2D puzzle game app for mobile platforms. This project allowed me to apply my creative and technical skills to create an engaging gaming experience. Here are some key highlights:
+      </p>
+      <ul>
+        <li>Created game concept and design, including puzzle mechanics and level progression.</li>
+        <li>Developed the game using Unity3D and C#, implementing game logic, physics, and controls.</li>
+        <li>Designed user-friendly interfaces and integrated in-app purchases for monetization.</li>
+        <li>Optimized game performance for smooth gameplay on a variety of devices.</li>
+        <li>Published the game on app stores, where it received positive user reviews and achieved thousands of downloads.</li>
+      </ul>
+      <p>
+        My experience in game app development has not only honed my technical skills but also my ability to create enjoyable and visually appealing gaming experiences that resonate with players.
+      </p>
+    </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>IT Support and Service Desk Management</li>
+                <li>Microsoft Cloud Technology (Exchange, AD/AAD, Azure, Intune, Teams, PowerShell)</li>
+                <li>Mimecast, Crowdstrike, Okta</li>
+                <li>FreshService ITSM tool management</li>
+                <li>Networking and Network Security</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+        </section>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.11/dist/vue.global.min.js"></script>
+    <script>
+        // Create a Vue app instance
+        const app = Vue.createApp({
+            
+        });
+        
+        app.mount('#app'); 
+    </script>
+</body>
+</html>
